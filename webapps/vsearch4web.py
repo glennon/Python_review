@@ -1,4 +1,4 @@
-from flask import Flask, rander_template
+from flask import Flask, render_template
 from vsearch import search4letters
 
 app = Flask(__name__)
