@@ -15,4 +15,4 @@ def do_search() -> str:
 def entry_page() -> 'html':
     return render_template('entry.html', the_title='Welcome to search3letters on the web!')
 
-app.run()
+app.run(debug=True)
