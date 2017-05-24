@@ -12,7 +12,7 @@ def setuser(user: str) -> str:
 
 
 @app.route('/getuser')
-def getuser() => str:
+def getuser() -> str:
     return 'User value is currently set to: ' + session['user']
 
 if __name__ == '__main__':
